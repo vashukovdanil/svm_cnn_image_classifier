@@ -24,7 +24,6 @@ from sklearn.svm import SVC
 
 
 
-
 def get_image(id, root_dir):
     # Открывает изображение в папке и возвращает его в качестве массива
     file = f'{id}.png'
