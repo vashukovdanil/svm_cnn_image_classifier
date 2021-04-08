@@ -6,7 +6,6 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.metrics import categorical_crossentropy
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-
 train_path = "train/"
 valid_path = "val/"
 
