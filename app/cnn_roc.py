@@ -36,6 +36,7 @@ roc_plot = plt.plot(false_positive_rate,
                         true_positive_rate,
                         label='AUC = {:0.2f}'.format(roc_auc))
 
+
 plt.legend(loc=0)
 plt.plot([0,1], [0,1], ls='--')
 plt.ylabel('True Positive Rate')
