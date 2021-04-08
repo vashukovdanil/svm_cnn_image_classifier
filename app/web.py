@@ -11,6 +11,7 @@ from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 
 
+
 # Загрузка приложения
 app = Flask(__name__, template_folder='templates')
 
