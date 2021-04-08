@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
+
 svm_model = model.train_model()
 
 y_test, X_test = model.create_feature_matix('test')
